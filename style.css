@@ -1,0 +1,43 @@
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  transition: background-color 5s;
+}
+
+#quote-box {
+  background-color: white;
+  width: 500px;
+  border-radius: 10px;
+}
+
+#text {
+  margin: 20px;
+  font-size: 28px;
+  text-align: center;
+}
+
+#author {
+  text-align: right;
+  margin-right: 10px;
+}
+
+#text, #author, #new-quote, #tweet-quote {
+  transition: color 5s;
+}
+
+.buttons {
+  padding: 0 50px 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  font-size: 24px;
+}
+
+#new-quote {
+  width: 100px;
+  height: 40px;
+  color: white;
+  border: none;
+  transition: background-color 5s;
+}
